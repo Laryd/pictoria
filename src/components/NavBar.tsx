@@ -29,10 +29,6 @@ const routeList: RouteProps[] = [
     label: "Home",
   },
   {
-    href: "#about",
-    label: "About",
-  },
-  {
     href: "#goals",
     label: "Pricing",
   },
@@ -62,7 +58,7 @@ export const NavBar = () => {
         <NavigationMenuList className="container h-20 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <Link href="/" className="ml-2 mb-2 font-bold text-xl flex">
-              <Image src="/logo1.svg" alt="logo" width={145} height={45} />
+              <Image src="/vercel.svg" alt="logo" width={145} height={45} />
             </Link>
           </NavigationMenuItem>
 
@@ -81,7 +77,7 @@ export const NavBar = () => {
                   <SheetTitle className="font-bold text-xl">
                     <Link href="/" className="ml-2 mt-5 font-bold text-xl flex">
                       <Image
-                        src="/logo1.svg"
+                        src="/next.svg"
                         alt="logo"
                         width={187}
                         height={74}
