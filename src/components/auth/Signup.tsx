@@ -12,7 +12,7 @@ export function SignupForm() {
   return (
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-        Sign Up to <span className="text-blue-400">Scriptring</span>
+        Sign Up to <span className="text-blue-400">Pictoria</span>
       </h2>
 
       <form className="my-8" onSubmit={handleSubmit}>
